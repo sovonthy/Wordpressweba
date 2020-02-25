@@ -1,0 +1,58 @@
+/* theme name : theme1
+author: sovonthy5555
+author url: http://localhost/sovonthy_wordpress/cmsLearning/
+version: 1.0
+*/
+body{
+    margin: 0;
+    padding: 0;
+    background-color: lightblue;
+}
+header{
+    background-color: purple;
+    padding: 12px;
+    color: white;
+}
+
+ul {
+	margin:0;
+	list-style:none;
+	background:linear-gradient(to left,teal,pink);
+	overflow:hidden;
+	
+}
+li  {
+	float:left;
+}
+li a {
+	padding: 15px 16px;
+	text-decoration:none;
+	color:#fff;
+	font-family: arial;
+	display:inline-block;
+}
+li a:hover{
+	background:linear-gradient(to right,pink,purple);
+}
+li a:focus {
+	background:purple;
+}
+
+footer{
+    background-color:purple;
+    padding: 5px;
+    color: white;
+    height: 150px;
+}
+header h1{
+    margin: 0; 
+    padding-bottom: 10px;
+    color: palegreen
+
+}
+.container {
+    width:1024px;
+}
+header .side_nav ul{
+    list-style: none;
+}
